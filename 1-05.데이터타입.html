@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //문자열
+        let name="bora";
+        let name2='h"el"lo'
+        let name3="hello \"world\"";
+        document.write(name2);
+        document.write(name3);
+
+        //숫자
+        let x=3;
+        let y=4.2;
+        let u=undefined;
+
+        //null
+        let z=null;
+
+        //object
+        let person={};
+        person.firstName="아냐";
+        person.lastname="유"
+        person.age=50;
+
+        let person2={
+            firstName:"아냐",
+            lastname:"유",
+            age:50
+        }
+
+        //배열
+        let arr1=["현대","두산","기아"]
+        console.log(arr1[0]);
+
+        let arr2=[3,7,9,12];
+        let arr4=["Hello",6,7,null]; //배열에 모든 것을 담을 수 있음
+        //오브젝트 안에 오브젝트 담을 수 있음
+
+        let arr5=[];
+        arr5[1]=1;
+        arr5[2]=3;
+
+        arr5.push(2)  //append랑 비슷한 듯
+        arr5.length //길이
+
+        //boolean
+        let isAdult=true;
+        //true or false
+        let x2=1;
+        let y2=1;
+        console.log(x2>y2);
+
+        //type 확인
+        console.log(typeof x2);
+        console.log(typeof person2)
+        
+        //배열의 타입은 object
+        
+    </script>
+    
+</body>
+</html>
